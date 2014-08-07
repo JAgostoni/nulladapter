@@ -1,9 +1,9 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CLASSES_ROOT\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}]
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}]
 @="/dev/null Adapter"
 
-[HKEY_CLASSES_ROOT\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\BizTalk]
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\BizTalk]
 @="BizTalk"
 'Type of the transport adapter
 "TransportType"="/dev/null Adapter"
@@ -23,7 +23,7 @@ Windows Registry Editor Version 5.00
 "OutboundTypeName"="Winterdom.BizTalk.Adapters.NullSendAdapter"
 
 'Path to the assembly that implements sending part of the adapter
-"OutboundAssemblyPath"="E:\\Projects\\Biztalk\\NullAdapterSol\\NullAdapter\\bin\\Debug\\Winterdom.BizTalk.Adapters.NullAdapter.dll"
+"OutboundAssemblyPath"="C:\\Work\\nulladapter\\NullAdapter\\bin\\Debug\\Winterdom.BizTalk.Adapters.NullAdapter.dll"
 
 'URL prefixes used for dynamic port transport resolution
 "AliasesXML"="<AdapterAliasList><AdapterAlias>null://</AdapterAlias></AdapterAliasList>"
@@ -40,9 +40,9 @@ Windows Registry Editor Version 5.00
 "AdapterMgmtTypeName"="Winterdom.BizTalk.Adapters.NullAdapterMgmt"
 
 'Path to the assembly that implments UI for adapter property pages
-"AdapterMgmtAssemblyPath"="E:\\Projects\\Biztalk\\NullAdapterSol\\NullAdapter\\bin\\Debug\\Winterdom.BizTalk.Adapters.NullAdapter.dll"
+"AdapterMgmtAssemblyPath"="C:\\Work\\nulladapter\\NullAdapter\\bin\\Debug\\Winterdom.BizTalk.Adapters.NullAdapter.dll""
 
 
-[HKEY_CLASSES_ROOT\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\Implemented Categories]
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\Implemented Categories]
 
-[HKEY_CLASSES_ROOT\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\Implemented Categories\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}]
+[HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\Implemented Categories\{7F46FC3E-3C2C-405B-A47F-8D17942BA8F9}]

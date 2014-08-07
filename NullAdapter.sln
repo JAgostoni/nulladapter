@@ -1,11 +1,11 @@
-Microsoft Visual Studio Solution File, Format Version 9.00
-# Visual Studio 2005
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullAdapter", "NullAdapter\NullAdapter.csproj", "{65EDA1FE-D7BF-43D1-A5A4-59309EDAAB00}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B73F7D4A-AA42-45B6-B3AC-8048AA5791F7}"
 	ProjectSection(SolutionItems) = preProject
 		NullAdapter.snk = NullAdapter.snk
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullAdapter", "NullAdapter\NullAdapter.csproj", "{65EDA1FE-D7BF-43D1-A5A4-59309EDAAB00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
