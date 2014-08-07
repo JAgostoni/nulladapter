@@ -40,7 +40,7 @@ Windows Registry Editor Version 5.00
 "AdapterMgmtTypeName"="Winterdom.BizTalk.Adapters.NullAdapterMgmt"
 
 'Path to the assembly that implments UI for adapter property pages
-"AdapterMgmtAssemblyPath"="C:\\Work\\nulladapter\\NullAdapter\\bin\\Debug\\Winterdom.BizTalk.Adapters.NullAdapter.dll""
+"AdapterMgmtAssemblyPath"="C:\\Work\\nulladapter\\NullAdapter\\bin\\Debug\\Winterdom.BizTalk.Adapters.NullAdapter.dll"
 
 
 [HKEY_CLASSES_ROOT\Wow6432Node\CLSID\{C98D3C74-F722-4F50-8AFC-4C2A9CB1D961}\Implemented Categories]
