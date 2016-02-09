@@ -43,7 +43,7 @@ namespace Winterdom.BizTalk.Adapters {
       IBTTransmitter {
       private const string NAME = "/dev/null adapter";
       private const string DESCRIPTION =
-               "/dev/null Send Adapter for BizTalk Server 2004";
+               "/dev/null Send Adapter for BizTalk Server 2013 R2";
       private const string VERSION = "1.0.0.1";
       private readonly Guid CLSID = new Guid("{95810ff9-f609-4395-aebe-995855430547}");
       private const string TRANSPORTTYPE = "null";
