@@ -62,4 +62,8 @@ The following configuration options are available for this adapter:
 _Name of the port_ : This value created the uri "address" of the port to make it unique within the realm of BizTalk.  This needs to be set to something universally unique within a given BizTalk group.
 
 _Log to Event Log_ : When true, creates a log entry in the Application Event Log under the /dev/null event source for each file that is handled by this adapter.
-
+***
+Troubleshooting
+---------------
+### Messages are suspended with Unknown Error
+Make sure you have restarted your host instance after you register the adapter for the first time. 
