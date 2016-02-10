@@ -26,17 +26,21 @@ namespace Winterdom.BizTalk.Adapters {
       /// <param name="msgID">Message ID</param>
       /// <param name="interchangeID">Interchange ID</param>
       public static void LogMessage(Guid msgID, string interchangeID) {
-         string entry =
-               "The following message has been discarded: " +
-               "\r\n\r\n" +
-               "MessageID: {0}\r\n" +
-               "InterchangeID: {0}\r\n";
-         entry = string.Format(entry, msgID, interchangeID);
+         // Do not attempt to write event log if source is not yet created
+          if (EventLog.SourceExists(LOGSOURCE))
+          {
+              string entry =
+                   "The following message has been discarded: " +
+                   "\r\n\r\n" +
+                   "MessageID: {0}\r\n" +
+                   "InterchangeID: {0}\r\n";
+              entry = string.Format(entry, msgID, interchangeID);
 
-         EventLog.WriteEntry(
-                     LOGSOURCE, entry,
-                     EventLogEntryType.Information
-                  );
+              EventLog.WriteEntry(
+                          LOGSOURCE, entry,
+                          EventLogEntryType.Information
+                       );
+          }
       }
 
       /// <summary>
