@@ -7,7 +7,7 @@ Summary
 According to the [original author](http://winterdom.com/2005/03/biztalk2004nullsendadaptersample), the BizTalk Null adapter "basically does nothing" with the messages.  There are several methods for "vaporizing" messages within BizTalk (orchestrations, file system, WCF null behavior) including this adapter method.
 
 ### Quick Start
-The detailed directions are blow but for those which are more experienced:
+The detailed directions are below but for those which are more experienced:
 1. Build the adapter in RELEASE mode
 2. Run install.ps1 (as admin)
 3. Register in BizTalk (via the Admin Console)
