@@ -50,7 +50,7 @@ Double check that yoru desired send handler hosts are registered as well:
 2. Select the desired host, repeat as necessary
 3. Note that a default handler was already added for you during the initial registation
 
-Finally, and as is always trur in BizTalk, restart your host instances.
+Finally, and as is always true in BizTalk, restart your host instances.
 ***
 Usage / Configuration
 -----
