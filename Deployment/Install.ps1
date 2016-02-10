@@ -27,7 +27,9 @@ If(Test-Path $SourceDLL)
         regedit /S .\NullAdapter64.reg
     }
 
-    #Install UTIL to register the event sources
+    #Register the event source (instead of using install util)
+    Write-Host "Registering Event Source"
+    New-EventLog -LogName Application -Source "/dev/null Adapter"
 
 } else {
     Write-Error "Release version of adapter DLL NOT found. Please build the VS project first in RELEASE mode."
