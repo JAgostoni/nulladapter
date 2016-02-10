@@ -141,7 +141,6 @@
     <Compile Include="TerminationController.cs">
       <SubType>Code</SubType>
     </Compile>
-    <None Include="NullAdapter.reg" />
     <EmbeddedResource Include="SendPortSchema.xsd">
       <SubType>Designer</SubType>
     </EmbeddedResource>
